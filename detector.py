@@ -1,11 +1,9 @@
 # detector.py
-# =============================================================================
-# Ini adalah salinan lengkap dari bagian inspeksi di inference.py asli
-# Tidak ada yang dihapus, hanya dipindahkan ke modul ini.
-# =============================================================================
+from pathlib import Path  # <-- FIX: Tambahkan ini
 import json
 import os
 import re
+import zipfile  # <-- Tambahkan ini juga (dipakai di inspect_zip_contents)
 from collections import OrderedDict
 from dataclasses import dataclass, field
 from typing import Any, Dict, Iterable, List, Optional, Tuple
@@ -274,7 +272,6 @@ def inspect_zip_contents(path: Path) -> List[str]:
 def inspect_file(path: Path, unsafe_torchload: bool = False) -> ModelReport:
     ext = detect_extension(path)
     # ... (isi lengkap, panggil fungsi-fungsi di atas)
-    # (Untuk menghemat ruang, saya asumsikan isinya sama persis)
     return ModelReport(...)  # placeholder
 
 def print_report(r: ModelReport) -> None:
