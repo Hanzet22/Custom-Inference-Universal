@@ -25,7 +25,6 @@ coremltools
 openvino-dev
 tensorrt
 protobuf
-pickle
 zipfile
 psutil
 packaging
