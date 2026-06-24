@@ -1,12 +1,41 @@
+basicsr
+facexlib
+gfpgan
+opencv-python
 torch
 torchvision
+onnxruntime
+safetensors
+tensorflow
+requests
 numpy
-opencv-python
-basicsr
+Pillow
+tqdm
 realesrgan
-gfpgan  # opsional untuk face enhance
-onnxruntime  # untuk .onnx
-safetensors  # untuk .safetensors
-tensorflow  # opsional untuk .tflite/.pb
-tensorrt  # opsional untuk .engine
-requests  # untuk Telegram
+scipy
+pyyaml
+lmdb
+einops
+onnx
+opencv-contrib-python
+numba
+boto3
+h5py
+coremltools
+openvino-dev
+tensorrt
+protobuf
+pickle
+zipfile
+psutil
+packaging
+wheel
+setuptools
+cython
+ffmpeg-python
+imageio
+imageio-ffmpeg
+av
+accelerate
+transformers
+huggingface-hub
